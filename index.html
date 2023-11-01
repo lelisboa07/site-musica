@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>Loucos por Música</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header style="background-color: #EEB5EB;">
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="./busca.html">
+          <img src="./assets/pesquisa.png" alt="busca" width="30" height="30">
+        </a>
+        <img src="./assets/Music.png" alt="logo" width="190" height="100">
+        <img src="./assets/coração.png" alt="favoritos" width="30" height="27">
+        <img src="./assets/perfil.png" alt="perfil" width="30" height="30">
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="botoes" style="display: flex; justify-content: center; gap: 40px;">
+      <a class="btn" style="background-color: #C26DBC; border-radius: 20px; box-shadow: 1px 1px 2px; margin: 15px;"
+        href="#musicas" role="button">Mais Ouvidas</a>
+
+      <a class="btn" style="background-color: #C26DBC; border-radius: 20px; box-shadow: 1px 1px 2px; margin: 15px;"
+        href="#artistas" role="button">Artistas</a>
+
+      <a class="btn" style="background-color: #C26DBC; border-radius: 20px; box-shadow: 1px 1px 2px; margin: 15px;"
+        href="#albuns" role="button">Álbuns</a>
+
+      <a class="btn" style="background-color: #C26DBC; border-radius: 20px; box-shadow: 1px 1px 2px; margin: 15px;"
+        href="#playlists" role="button">Playlists</a>
+
+      <a class="btn" style="background-color: #C26DBC; border-radius: 20px; box-shadow: 1px 1px 2px; margin: 15px;"
+        href="#noticias" role="button">Notícias</a>
+    </div>
+
+    <div id="anuncio" style="display: flex; justify-content: center;">
+      <img src="./assets/anuncio.png" class="img-fluid" alt="anuncio"
+        style="border-radius: 20px; box-shadow: 2px 1px 2px;">
+    </div>
+
+    <div class="divisao" style="display: flex; justify-content: center;">
+      <hr style="margin-top: 40px;">
+    </div>
+
+    <!-- MÚSICAS -->
+
+    <h4 id="musicas" style="margin: 15px;">Mais Ouvidas</h4>
+
+    <div class="container1 text-center" style="display: flex; justify-content: space-evenly;">
+      <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
+        <div class="card" style="background-color: #C8F4F9; width: 15vw;">
+          <img src="./assets/SFTTR.jfif" class="card-img" style="margin-top: 10px;" alt="set fire to the rain">
+          <div class="card-body">
+            <p class="card-text">Set Fire to the Rain - Adele</p>
+          </div>
+        </div>
+
+        <div class="card" style="background-color: #C8F4F9; width: 15vw;">
+          <img src="./assets/DFY.jfif" class="card-img" style="margin-top: 10px;" alt="die for you">
+          <div class="card-body">
+            <p class="card-text">Die For You - The Weeknd</p>
+          </div>
+        </div>
+
+        <div class="card" style="background-color: #C8F4F9; width: 15vw;">
+          <img src="./assets/Idiota.webp" class="card-img" style="margin-top: 10px;" alt="idiota">
+          <div class="card-body">
+            <p class="card-text">Idiota - Jão</p>
+          </div>
+        </div>
+
+        <div class="card" style="background-color: #C8F4F9; width: 15vw;">
+          <img src="./assets/Lovestory.jfif" class="card-img" style="margin-top: 10px;" alt="love story">
+          <div class="card-body">
+            <p class="card-text">Love Story (Taylor's Version) - Taylor Swift</p>
+          </div>
+        </div>
+
+        <div class="card" style="background-color: #C8F4F9; width: 15vw;">
+          <img src="./assets/NDG.jpg" class="card-img" style="margin-top: 10px;" alt="nem de graça">
+          <div class="card-body">
+            <p class="card-text">Nem de Graça - Pixote</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divisao" style="display: flex; justify-content: center;">
+      <hr>
+    </div>
+
+    <!-- ARTISTAS -->
+
+    <h4 id="artistas" style="margin: 15px;">Artistas</h4>
+
+    <div class="container text-center">
+      <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
+        <div class="col">
+          <img class="artista" style="width: 10vw; border-radius: 100px;" src="./assets/jão.jfif" alt="jão">
+          <div class="p-3">Jão</div>
+        </div>
+
+        <div class="col">
+          <img class="artista" style="width: 10vw; border-radius: 100px;" src="./assets/ed sheeran.jfif"
+            alt="ed sheeran">
+          <div class="p-3">Ed Sheeran</div>
+        </div>
+
+        <div class="col">
+          <img class="artista" style="width: 10vw; border-radius: 100px;" src="./assets/lagum.jfif" alt="lagum">
+          <div class="p-3">Lagum</div>
+        </div>
+
+        <div class="col">
+          <img class="artista" style="width: 10vw; border-radius: 100px;" src="./assets/harry.jfif" alt="harry styles">
+          <div class="p-3">Harry Styles</div>
+        </div>
+
+        <div class="col">
+          <img class="artista" style="width: 10vw; border-radius: 100px;" src="./assets/tdp.jfif" alt="turma do pagode">
+          <div class="p-3">Turma do Pagode</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="divisao" style="display: flex; justify-content: center;">
+      <hr>
+    </div>
+
+    <!-- ÁLBUNS -->
+
+    <h4 id="albuns" style="margin: 15px;">Álbuns</h4>
+
+    <div class="container1 text-center" style="display: flex; justify-content: space-evenly;">
+      <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
+        <div class="card" style="background-color: #EEB5EB; width: 15vw;">
+          <img src="./assets/lover.webp" class="card-img" style="margin-top: 10px;" alt="lover">
+          <div class="card-body">
+            <p class="card-text">Lover - Taylor Swift</p>
+          </div>
+        </div>
+
+        <div class="card" style="background-color: #EEB5EB; width: 15vw;">
+          <img src="./assets/bleach.webp" class="card-img" style="margin-top: 10px;" alt="bleach">
+          <div class="card-body">
+            <p class="card-text">Bleach - Nirvana</p>
+          </div>
+        </div>
+
+        <div class="card" style="background-color: #EEB5EB; width: 15vw;">
+          <img src="./assets/bruno.jpg" class="card-img" style="margin-top: 10px;" alt="Unorthodox Jukebox">
+          <div class="card-body">
+            <p class="card-text">Unorthodox Jukebox - Bruno Mars</p>
+          </div>
+        </div>
+
+        <div class="card" style="background-color: #EEB5EB; width: 15vw;">
+          <img src="./assets/Baco.webp" class="card-img" style="margin-top: 10px;"
+            alt="quantas vezes você já foi amado?">
+          <div class="card-body">
+            <p class="card-text">Quantas Vezes Você Já Foi Amado? - Baco Exu do Blues</p>
+          </div>
+        </div>
+
+        <div class="card" style="background-color: #EEB5EB; width: 15vw;">
+          <img src="./assets/super.jpg" class="card-img" style="margin-top: 10px;" alt="super">
+          <div class="card-body">
+            <p class="card-text">Super - Jão</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="divisao" style="display: flex; justify-content: center;">
+      <hr>
+    </div>
+
+    <!-- PLAYLISTS -->
+    
+    <section style="display: grid; grid-template-columns: 50% 50%;">
+      <h4 id="playlists" style="margin: 15px;">Playlists</h4>
+      <h4 id="noticias" style="margin: 15px;">Notícias</h4>
+    </section>
+
+    <section style="display: grid; grid-template-columns: 50% 50%; margin-left: 50px; margin-right: 50px;
+    ">
+      <div style="display: flex; gap: 30px;">
+
+
+        <div class="container1 text-center" style="display: flex; gap: 30px;">
+          <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
+            <div>
+              <div class="card" style="background-color: #3CACAE; width: 13vw;">
+                <img src="./assets/Pop.png" class="card-img" alt="pop">
+                <div class="card-body">
+                  <p class="card-text">Pop</p>
+                </div>
+              </div>
+
+              <div class="card" style="background-color: #3CACAE; width: 13vw;">
+                <img src="./assets/Pagode.png" class="card-img" alt="pagode">
+                <div class="card-body">
+                  <p class="card-text">Pagode</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="container1 text-center" style="display: flex;">
+          <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
+            <div>
+              <div class="card" style="background-color: #3CACAE; width: 13vw;">
+                <img src="./assets/MPB.png" class="card-img" alt="mpb">
+                <div class="card-body">
+                  <p class="card-text">MPB</p>
+                </div>
+              </div>
+
+              <div class="card" style="background-color: #3CACAE; width: 13vw;">
+                <img src="./assets/Rock.png" class="card-img" alt="rock">
+                <div class="card-body">
+                  <p class="card-text">Rock</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- NOTÍCIAS -->
+
+      <div>
+
+        <div style="display: flex; gap: 20px; align-items: center; background-color: #C26DBC; margin: 15px; border-radius: 10px;">
+          <img src="./assets/rita.jfif" style="width: 15vw; margin: 10px;" alt="rita lee">
+          <p style="margin-right: 10px;">Rita Lee, rainha do rock brasileiro, morre aos 75 anos</p>
+        </div>
+
+        <div style="display: flex; gap: 20px; align-items: center; background-color: #C26DBC; margin: 15px; border-radius: 10px;">
+          <img src="./assets/roberto.jfif" style="width: 15vw; margin: 10px;" alt="roberto carlos">
+          <p style="margin-right: 10px;">Roberto Carlos vai dividir palco com Luísa Sonza, Ana Castela e Jão na Globo</p>
+        </div>
+
+        <div style="display: flex; gap: 20px; align-items: center; background-color: #C26DBC; margin: 15px; border-radius: 10px;">
+          <img src="./assets/marcinho.jfif" style="width: 15vw; margin: 10px;" alt="mc marcinho">
+          <p style="margin-right: 10px;">Cantor e compositor MC Marcinho morre no Rio aos 45 anos</p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+  <footer style="background-color: #EEB5EB;">
+      <section style="display: flex; flex-direction: column; align-items: center;">
+      <img src="./assets/Music.png" alt="logo" width="190" height="100">
+
+      <div style="display: flex;">
+        <img src="./assets/instagram.png" alt="instagram" width="30" height="30">
+        <p>@loucos_por_musica</p>
+      </div>
+
+      <div style="display: flex;">
+        <img src="./assets/facebook.png" alt="facebook" width="30" height="30">
+        <p>@loucos_por_musica</p>
+      </div>
+    </section>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
